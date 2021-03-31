@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Test" max_length="40" name="x_58872_needit_test" type="collection">
+        <element label="ABI" mandatory="true" max_length="40" name="u_integer_10" type="integer"/>
+        <element label="Check" mandatory="true" max_length="40" name="u_integer_4" type="integer"/>
+        <element choice="1" label="ABI" mandatory="true" max_length="40" name="u_integer_6" type="integer">
+            <choice/>
+        </element>
+        <element label="CAB" mandatory="true" max_length="40" name="u_integer_7" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="CF" mandatory="true" max_length="20" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="IT" label="Sigla Naz" max_length="2" name="u_string_3" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="CIN" mandatory="true" max_length="1" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="C/C" mandatory="true" max_length="12" name="u_string_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="BIC" mandatory="true" max_length="40" name="u_string_9" type="string"/>
+    </element>
+</database>
